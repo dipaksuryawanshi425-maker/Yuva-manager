@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuva Computer Academy | Bolthan</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+
+        header {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #ddd;
+        }
+
+        .team-section {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #2c5364;
+            margin-bottom: 15px;
+        }
+
+        .role {
+            font-weight: bold;
+            color: #2c5364;
+            margin-bottom: 5px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        footer {
+            background: #2c5364;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yuva Computer Academy</h1>
+    <p>Bolthan</p>
+</header>
+
+<section class="team-section">
+
+    <!-- Manager -->
+    <div class="card">
+        <img src="images/manager.png" alt="Manager">
+        <div class="role">Manager</div>
+        <div class="name">Rushi Selar</div>
+    </div>
+
+    <!-- Founder / Owner -->
+    <div class="card">
+        <img src="images/founder.png" alt="Founder">
+        <div class="role">Founder / Owner</div>
+        <div class="name">Samadhan Jadhav</div>
+    </div>
+
+    <!-- Coordinator / Assistant Manager / Teacher -->
+    <div class="card">
+        <img src="images/coordinator.png" alt="Coordinator">
+        <div class="role">Coordinator / Assistant Manager / Teacher</div>
+        <div class="name">Dipak Suryawanshi</div>
+    </div>
+
+</section>
+
+<footer>
+    © 2025 Yuva Computer Academy | Bolthan
+</footer>
+
+</body>
+</html>
